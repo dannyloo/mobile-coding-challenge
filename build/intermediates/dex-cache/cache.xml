@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\danny\Documents\Jobs\Resume\test\Photo Client App\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\libs\internal_impl-21.0.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\danny\Documents\Jobs\Resume\test\Photo Client App\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-21.0.3_432d3f532fffbf181a48fdc1f4d75a955454c833\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\danny\Documents\Jobs\Resume\test\Photo Client App\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\Users\danny\Documents\Jobs\Resume\test\Photo Client App\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-21.0.3_d3c6361ec7b1cfcb2272a11e9ac1b78180c5e97a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\danny\Documents\Jobs\Resume\test\Photo Client App\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\danny\Documents\Jobs\Resume\test\Photo Client App\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-21.0.3_b2248b0256976141325898282cef89c95d8e4999\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\danny\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\Users\danny\Documents\Jobs\Resume\test\Photo Client App\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.2_d3a61f0970cb7b9f89c47e5d64cd0bba8f6cdd40\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\danny\Documents\Jobs\Resume\test\Photo Client App\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="1d5a413c0795b243e5469cf225d4789a78902aca">
+        <dex dex="C:\Users\danny\Documents\Jobs\Resume\test\Photo Client App\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_828886ae35e4fb4955067d663a8040e20fe46557\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\danny\Documents\Jobs\Resume\TradeRev\mobile-coding-challenge\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="b440e001c7040bea6de75cbcdf0a9a1cb35e8065">
+        <dex dex="C:\Users\danny\Documents\Jobs\Resume\TradeRev\mobile-coding-challenge\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_fb14e9ba1e28dcae7d9f31295c32da9ff5238149\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\danny\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Users\danny\Documents\Jobs\Resume\test\Photo Client App\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-21.0.3_08398d5fe9f23c58e4d90f5e34d3a651a4812184\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\danny\Documents\Jobs\Resume\TradeRev\mobile-coding-challenge\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\libs\internal_impl-21.0.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\danny\Documents\Jobs\Resume\TradeRev\mobile-coding-challenge\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-21.0.3_a5e536b8e6afab2a18e267d8bcb31f98a01ea224\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\danny\Documents\Jobs\Resume\TradeRev\mobile-coding-challenge\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="792629dc508983988140368520df8dd04a53f9d9">
+        <dex dex="C:\Users\danny\Documents\Jobs\Resume\TradeRev\mobile-coding-challenge\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_07edb74bfac57bbd648bb360d1a20d9ad9039792\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\danny\Documents\Jobs\Resume\TradeRev\mobile-coding-challenge\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\danny\Documents\Jobs\Resume\TradeRev\mobile-coding-challenge\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-21.0.3_a0b8df21646172a438205cfaa8fc57a05485ec43\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\danny\Documents\Jobs\Resume\test\Photo Client App\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="9a91223c2bec532a1cde1786a3322ac5e374fde7">
+        <dex dex="C:\Users\danny\Documents\Jobs\Resume\test\Photo Client App\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_c79e67e34be0e7a848ac4f4b1002e35f4fe59dab\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\danny\Documents\Jobs\Resume\TradeRev\mobile-coding-challenge\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\Users\danny\Documents\Jobs\Resume\TradeRev\mobile-coding-challenge\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-21.0.3_6d5939a30dbad37bb06b1d410cceac8a782dba93\classes.dex" />
+    </item>
+
+</items>
