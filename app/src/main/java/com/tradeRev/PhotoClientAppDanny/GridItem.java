@@ -1,6 +1,8 @@
 package com.tradeRev.PhotoClientAppDanny;
 
-public class GridItem {
+import java.io.Serializable;
+
+public class GridItem implements Serializable{
     private String image;
     private String imageRaw;
     private String title;

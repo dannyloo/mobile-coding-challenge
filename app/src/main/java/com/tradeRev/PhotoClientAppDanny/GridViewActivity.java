@@ -9,12 +9,14 @@ import java.util.ArrayList;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.GridView;
 import android.widget.ImageView;
+import android.widget.ListAdapter;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
@@ -36,6 +38,8 @@ public class GridViewActivity extends ActionBarActivity {
     private ArrayList<GridItem> mGridData;
     private String FEED_URL = "https://api.unsplash.com/photos/curated/?client_id=55d34af08d928ec06dac447c8e11b58311734cc651f78f62029373afb74a5152";
 
+    private ViewPagerAdapter mViewAdapter;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -48,6 +52,11 @@ public class GridViewActivity extends ActionBarActivity {
         mGridData = new ArrayList<>();
         mGridAdapter = new GridViewAdapter(this, R.layout.grid_item_layout, mGridData);
         mGridView.setAdapter(mGridAdapter);
+
+//        ViewPager viewPager = (ViewPager) findViewById(R.id.view_pager);
+//        String [] imageURLs = mGridData.toArray(new String[0]);
+//        mViewAdapter = new ViewPagerAdapter(this, imageURLs);
+//        viewPager.setAdapter(mViewAdapter);
 
         //Grid view click event
         mGridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -73,6 +82,7 @@ public class GridViewActivity extends ActionBarActivity {
                         putExtra("height", imageView.getHeight()).
                         putExtra("title", item.getTitle()).
                         putExtra("image", item.getImageRaw());
+                intent.putExtra("imageArray", mGridData);
 
                 //Start details activity
                 startActivity(intent);
@@ -175,6 +185,8 @@ public class GridViewActivity extends ActionBarActivity {
         } catch (JSONException e) {
             e.printStackTrace();
         }
+
+        System.out.println("urls are: " + mGridData.get(0).getImageRaw());
 
     }
 }
