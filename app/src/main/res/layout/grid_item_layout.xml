@@ -2,7 +2,7 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_marginTop="5dp"
+    android:layout_marginTop="15dp"
     android:background="@drawable/grid_color_selector"
     android:orientation="vertical"
     android:padding="5dp">
@@ -10,17 +10,18 @@
         <ImageView
             android:id="@+id/grid_item_image"
             android:scaleType="fitCenter"
-            android:layout_width="175dp"
-            android:layout_height="175dp"
             android:elevation="3dp"
-            />
+            android:layout_width="175sp"
+            android:layout_height="175sp" />
 
         <TextView
             android:id="@+id/grid_item_title"
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
             android:ellipsize="marquee"
             android:gravity="center"
             android:maxLines="2"

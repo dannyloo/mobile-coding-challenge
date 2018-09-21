@@ -1,24 +1,17 @@
 # Mobile Developer Coding Challenge
 
-This is a coding challenge for prospective mobile developer applicants applying through http://work.traderev.com/
+By: Danny Loo
+Date: Sept 21, 2018 
 
-## Goal:
+The app has the following features: 
 
-#### Build simple app that allows viewing and interacting with a grid of curated photos from Unsplash
-
-- [ ] Fork this repo. Keep it public until we have been able to review it.
-- [ ] Android: _Java_ or _Kotlin_ | iOS: _Swift 4_
-- [ ] Unsplash API docs are here: https://unsplash.com/documentation.
-- [ ] Grid of photos should preserve the aspect ratio of the photos it's displaying, meaning you shouldn't crop the image in any way.
-- [ ] App should work in both portrait and landscape orientations of the device.
-- [ ] Grid should support pagination, i.e. you can scroll on grid of photos infinitely.
-- [ ] When user taps on a photo on the grid it should show only the tapped photo in full screen with more information about the photo.
-- [ ] When user swipes on a photo in full screen, it should show the the next photo and preserve current photo's location on the grid, so when she dismisses the full screen, grid of photos should contain the last photo she saw in photo details.
-
-### Evaluation:
-- [ ] Solution compiles. If there are necessary steps required to get it to compile, those should be covered in README.md.
-- [ ] No crashes, bugs, compiler warnings
-- [ ] App operates as intended
-- [ ] Conforms to SOLID principles
-- [ ] Code is easily understood and communicative
-- [ ] Commit history is consistent, easy to follow and understand
+	- Curated photos are recieved from the following JSON: 
+	https://api.unsplash.com/photos/curated/?client_id=55d34af08d928ec0	6dac447c8e11b58311734cc651f78f62029373afb74a5152
+	- Images are displayed in a grid format
+	- App works in both landscape and portrait and aspect ratio of the 	original image is displayed
+	- When user taps on a photo on the grid it should show only the 	tapped photo in full screen with more information about the 
+	photo
+	- When user swipes on a photo in full screen, it should show the 	the next photo and preserve current photo's location on 
+	the grid, so when she dismisses the full screen, grid of photos 	should contain the last photo she saw in photo details
+	
+The apk file can be found in app/app-release.apk

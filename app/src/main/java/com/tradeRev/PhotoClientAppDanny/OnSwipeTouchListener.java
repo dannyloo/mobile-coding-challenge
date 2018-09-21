@@ -2,6 +2,7 @@ package com.tradeRev.PhotoClientAppDanny;
 
 /**
  * Created by Danny on 2018-09-19.
+ * Found from: https://stackoverflow.com/questions/4139288/android-how-to-handle-right-to-left-swipe-gestures
  */
 
 import android.content.Context;

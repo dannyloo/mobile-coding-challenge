@@ -13,6 +13,7 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
 import android.view.View;
+import android.widget.AbsListView;
 import android.widget.AdapterView;
 import android.widget.GridView;
 import android.widget.ImageView;
@@ -28,6 +29,8 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import static com.tradeRev.PhotoClientAppDanny.R.id.gridView;
+
 public class GridViewActivity extends ActionBarActivity {
     private static final String TAG = GridViewActivity.class.getSimpleName();
 
@@ -38,14 +41,13 @@ public class GridViewActivity extends ActionBarActivity {
     private ArrayList<GridItem> mGridData;
     private String FEED_URL = "https://api.unsplash.com/photos/curated/?client_id=55d34af08d928ec06dac447c8e11b58311734cc651f78f62029373afb74a5152";
 
-    private ViewPagerAdapter mViewAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_gridview);
 
-        mGridView = (GridView) findViewById(R.id.gridView);
+        mGridView = (GridView) findViewById(gridView);
         mProgressBar = (ProgressBar) findViewById(R.id.progressBar);
 
         //Initialize with empty data
@@ -92,7 +94,26 @@ public class GridViewActivity extends ActionBarActivity {
         //Start download
         new AsyncHttpTask().execute(FEED_URL);
         mProgressBar.setVisibility(View.VISIBLE);
+
+        mGridView.setOnScrollListener(new AbsListView.OnScrollListener(){
+            @Override
+            public void onScroll(AbsListView view, int firstVisibleItem, int visibleItemCount, int totalItemCount)
+            {
+                if(firstVisibleItem + visibleItemCount >= totalItemCount){
+                    // End has been reached
+                    Toast.makeText(getApplicationContext(), "This is my Toast message!",
+                            Toast.LENGTH_SHORT).show();
+                }
+            }
+
+            @Override
+            public void onScrollStateChanged(AbsListView view, int scrollState){
+
+            }
+        });
     }
+
+
 
 
     //Downloading data asynchronously
@@ -189,4 +210,5 @@ public class GridViewActivity extends ActionBarActivity {
         System.out.println("urls are: " + mGridData.get(0).getImageRaw());
 
     }
+
 }

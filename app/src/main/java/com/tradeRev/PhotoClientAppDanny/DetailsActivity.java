@@ -158,7 +158,7 @@ public class DetailsActivity extends ActionBarActivity {
             public void onSwipeRight() {
                 index--;
                 if(index < 0)
-                    index = 0;
+                    index = 9;
 
                 titleTextView = (TextView) findViewById(R.id.title);
                 titleTextView.setText(Html.fromHtml(urlList.get(index).getTitle()));
@@ -168,7 +168,7 @@ public class DetailsActivity extends ActionBarActivity {
             public void onSwipeLeft() {
                 index++;
                 if (index > 9)
-                    index = 9;
+                    index = 0;
 
                 titleTextView = (TextView) findViewById(R.id.title);
                 titleTextView.setText(Html.fromHtml(urlList.get(index).getTitle()));
