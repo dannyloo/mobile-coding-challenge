@@ -95,22 +95,6 @@ public class GridViewActivity extends ActionBarActivity {
         new AsyncHttpTask().execute(FEED_URL);
         mProgressBar.setVisibility(View.VISIBLE);
 
-        mGridView.setOnScrollListener(new AbsListView.OnScrollListener(){
-            @Override
-            public void onScroll(AbsListView view, int firstVisibleItem, int visibleItemCount, int totalItemCount)
-            {
-                if(firstVisibleItem + visibleItemCount >= totalItemCount){
-                    // End has been reached
-                    Toast.makeText(getApplicationContext(), "This is my Toast message!",
-                            Toast.LENGTH_SHORT).show();
-                }
-            }
-
-            @Override
-            public void onScrollStateChanged(AbsListView view, int scrollState){
-
-            }
-        });
     }
 
 
