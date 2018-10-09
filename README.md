@@ -4,6 +4,8 @@ By: Danny Loo
 
 Date: Sept 21, 2018 
 
+Requirements can be found here: https://github.com/TradeRev/mobile-coding-challenge
+
 The app has the following features: 
 
 - Curated photos are recieved from the following JSON: 
